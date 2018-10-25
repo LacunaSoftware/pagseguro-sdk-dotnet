@@ -37,6 +37,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authorization", "Authorizat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateAuthorization", "Examples\Authorization\CreateAuthorization\CreateAuthorization.csproj", "{E795DB20-B465-4D6D-8128-E8DDE8D25FB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateAuthorizationCore", "Examples\Authorization\CreateAuthorizationCore\CreateAuthorizationCore.csproj", "{28E32180-88D5-4E6E-A3D1-A448F881F0E1}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveAuthorizationNotification", "Examples\ReceiveAuthorizationNotification\ReceiveAuthorizationNotification.csproj", "{92351B44-6505-4D3A-9417-2B9E24C2903F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Checkout", "Checkout", "{91346C65-14C1-4E32-93C2-00AB72A1E810}"
@@ -359,6 +361,18 @@ Global
 		{14304A81-B823-4487-85CF-68C6E4B6C7B2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{14304A81-B823-4487-85CF-68C6E4B6C7B2}.Release|x86.ActiveCfg = Release|Any CPU
 		{14304A81-B823-4487-85CF-68C6E4B6C7B2}.Release|x86.Build.0 = Release|Any CPU
+		{28E32180-88D5-4E6E-A3D1-A448F881F0E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E32180-88D5-4E6E-A3D1-A448F881F0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E32180-88D5-4E6E-A3D1-A448F881F0E1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{28E32180-88D5-4E6E-A3D1-A448F881F0E1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{28E32180-88D5-4E6E-A3D1-A448F881F0E1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{28E32180-88D5-4E6E-A3D1-A448F881F0E1}.Debug|x86.Build.0 = Debug|Any CPU
+		{28E32180-88D5-4E6E-A3D1-A448F881F0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E32180-88D5-4E6E-A3D1-A448F881F0E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E32180-88D5-4E6E-A3D1-A448F881F0E1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{28E32180-88D5-4E6E-A3D1-A448F881F0E1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{28E32180-88D5-4E6E-A3D1-A448F881F0E1}.Release|x86.ActiveCfg = Release|Any CPU
+		{28E32180-88D5-4E6E-A3D1-A448F881F0E1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -384,6 +398,7 @@ Global
 		{1A7BF7FF-E187-4E02-B2E1-F86DFB6DB002} = {549B8B07-3565-4386-9EC2-64AAE85B144D}
 		{6E19E575-2F19-400E-A3DB-81143B38318A} = {549B8B07-3565-4386-9EC2-64AAE85B144D}
 		{14304A81-B823-4487-85CF-68C6E4B6C7B2} = {549B8B07-3565-4386-9EC2-64AAE85B144D}
+		{28E32180-88D5-4E6E-A3D1-A448F881F0E1} = {1C32B3D7-2316-4A3D-A561-F4D7623501B9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F2947034-45A8-4A42-B21C-D6BF021A1F4F}
