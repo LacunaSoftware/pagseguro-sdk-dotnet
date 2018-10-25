@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Version>3.0.0</Version>
-    <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net45;net40</TargetFrameworks>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Uol.PagSeguro.snk</AssemblyOriginatorKeyFile>
     <PackageId>Lacuna.Uol.PagSeguro</PackageId>
@@ -11,7 +11,7 @@
     <Description>Lacuna Software's fork of the PagSeguro Client API with .NET Standard 2.0 support and strong name</Description>
   </PropertyGroup>
 
-  <ItemGroup Condition="'$(TargetFramework)' == 'net45'">
+  <ItemGroup Condition="'$(TargetFramework)' != 'netstandard2.0'">
     <Reference Include="System.Web" />
   </ItemGroup>
 
