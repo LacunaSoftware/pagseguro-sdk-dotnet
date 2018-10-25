@@ -5,6 +5,7 @@
 *.suo
 *.user
 *.sln.docstates
+.vs/
 
 # Build results
 
@@ -14,6 +15,9 @@ x64/
 build/
 [Bb]in/
 [Oo]bj/
+
+# Generated nuget packages
+scripts/*.nupkg
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
