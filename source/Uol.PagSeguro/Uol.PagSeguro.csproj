@@ -8,7 +8,9 @@
     <PackageId>Lacuna.Uol.PagSeguro</PackageId>
     <Authors>UOL, Lacuna Software</Authors>
     <Owners>Lacuna Software</Owners>
+    <PackageIconUrl>http://pki.lacunasoftware.com/Content/img/nuget-pkg-icon.png</PackageIconUrl>
     <Description>Lacuna Software's fork of the PagSeguro Client API with .NET Standard 2.0 support and strong name</Description>
+    <PackageTags>Lacuna UOL PagSeguro Core</PackageTags>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' != 'netstandard2.0'">
