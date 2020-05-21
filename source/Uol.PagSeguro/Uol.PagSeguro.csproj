@@ -5,16 +5,30 @@
     <TargetFrameworks>netstandard2.0;net45;net40</TargetFrameworks>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Uol.PagSeguro.snk</AssemblyOriginatorKeyFile>
-    <PackageId>Lacuna.Uol.PagSeguro</PackageId>
-    <Authors>UOL, Lacuna Software</Authors>
-    <Owners>Lacuna Software</Owners>
-    <PackageIconUrl>http://pki.lacunasoftware.com/Content/img/nuget-pkg-icon.png</PackageIconUrl>
-    <Description>Lacuna Software's fork of the PagSeguro Client API with .NET Standard 2.0 support and strong name</Description>
-    <PackageTags>Lacuna UOL PagSeguro Core</PackageTags>
+    <PackageId>tucaz.Uol.PagSeguro</PackageId>
+    <PackageLicenseFile>LICENSE-2.0.txt</PackageLicenseFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <Company>UOL</Company>
+    <Copyright>Copyright 2014-2019 PagSeguro Internet LTDA &amp; Contributors</Copyright>
+    <Authors>UOL, Lacuna Software, tucaz</Authors>
+    <Owners>tucaz</Owners>
+    <Title>.NET Core compatible client for PagSeguro payment services</Title>
+    <Summary>tucaz fork of PagSeguro Client API with .NET Standard 2.0, strong name and testing support</Summary>
+    <Description>tucaz fork of PagSeguro Client API with .NET Standard 2.0, strong name and testing support</Description>
+    <PackageTags>tucaz UOL PagSeguro Core</PackageTags>
+    <RepositoryUrl>https://github.com/tucaz/pagseguro-sdk-dotnet</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' != 'netstandard2.0'">
     <Reference Include="System.Web" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+
+    <None Include="..\..\icon.png" Pack="true" PackagePath="\"/>
+    <None Include="..\..\LICENSE-2.0.txt" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
   <ItemGroup>
