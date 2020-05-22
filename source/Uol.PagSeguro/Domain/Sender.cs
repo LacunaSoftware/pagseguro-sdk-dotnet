@@ -67,18 +67,18 @@ namespace Uol.PagSeguro.Domain
         /// </summary>
         public IList<SenderDocument> Documents
         {
-            get 
-            { 
+            get
+            {
                 if(this._documents == null)
                 {
                     this._documents = new List<SenderDocument>();
                 }
-                return this._documents;  
+                return this._documents;
             }
             set { this._documents = value; }
         }
 
-        internal Sender()
+        public Sender()
         {
         }
 
@@ -98,7 +98,7 @@ namespace Uol.PagSeguro.Domain
             this.Phone = new Phone(areaCode, number);
             this.Documents.Add(new SenderDocument(type,value));
         }
-        
+
         /// <summary>
         /// Initializes a new instance of the Sender class
         /// </summary>

@@ -25,7 +25,7 @@ namespace Uol.PagSeguro.Domain
     {
         private IList<Item> items;
 
-        internal Transaction()
+        public Transaction()
         {
         }
 
@@ -35,7 +35,7 @@ namespace Uol.PagSeguro.Domain
         public DateTime Date
         {
             get;
-            internal set;
+            set;
         }
 
         /// <summary>
@@ -44,20 +44,20 @@ namespace Uol.PagSeguro.Domain
         public string Code
         {
             get;
-            internal set;
+            set;
         }
 
         /// <summary>
         /// Reference code
         /// </summary>
         /// <remarks>
-        /// You can use the reference code to store an identifier so you can 
+        /// You can use the reference code to store an identifier so you can
         /// associate the PagSeguro transaction to a transaction in your system.
         /// </remarks>
         public string Reference
         {
             get;
-            internal set;
+            set;
         }
 
         /// <summary>
@@ -66,7 +66,7 @@ namespace Uol.PagSeguro.Domain
         public int TransactionType
         {
             get;
-            internal set;
+            set;
         }
 
         /// <summary>
@@ -75,7 +75,7 @@ namespace Uol.PagSeguro.Domain
         public int TransactionStatus
         {
             get;
-            internal set;
+            set;
         }
 
         /// <summary>
@@ -84,7 +84,7 @@ namespace Uol.PagSeguro.Domain
         public PaymentMethod PaymentMethod
         {
             get;
-            internal set;
+            set;
         }
 
         /// <summary>
@@ -93,7 +93,7 @@ namespace Uol.PagSeguro.Domain
         public string PaymentLink
         {
             get;
-            internal set;
+            set;
         }
 
         /// <summary>
@@ -102,7 +102,7 @@ namespace Uol.PagSeguro.Domain
         public decimal GrossAmount
         {
             get;
-            internal set;
+            set;
         }
 
         /// <summary>
@@ -111,7 +111,7 @@ namespace Uol.PagSeguro.Domain
         public decimal DiscountAmount
         {
             get;
-            internal set;
+            set;
         }
 
         /// <summary>
@@ -120,7 +120,7 @@ namespace Uol.PagSeguro.Domain
         public decimal FeeAmount
         {
             get;
-            internal set;
+            set;
         }
 
         /// <summary>
@@ -129,7 +129,7 @@ namespace Uol.PagSeguro.Domain
         public CreditorFees CreditorFees
         {
             get;
-            internal set;
+            set;
         }
 
         /// <summary>
@@ -138,7 +138,7 @@ namespace Uol.PagSeguro.Domain
         public decimal NetAmount
         {
             get;
-            internal set;
+            set;
         }
 
         /// <summary>
@@ -147,7 +147,7 @@ namespace Uol.PagSeguro.Domain
         public decimal ExtraAmount
         {
             get;
-            internal set;
+            set;
         }
 
         /// <summary>
@@ -156,7 +156,7 @@ namespace Uol.PagSeguro.Domain
         public DateTime LastEventDate
         {
             get;
-            internal set;
+            set;
         }
 
         /// <summary>
@@ -165,7 +165,7 @@ namespace Uol.PagSeguro.Domain
         public int InstallmentCount
         {
             get;
-            internal set;
+            set;
         }
 
         /// <summary>
@@ -177,7 +177,7 @@ namespace Uol.PagSeguro.Domain
         public Sender Sender
         {
             get;
-            internal set;
+            set;
         }
 
         /// <summary>
@@ -201,7 +201,7 @@ namespace Uol.PagSeguro.Domain
         public Shipping Shipping
         {
             get;
-            internal set;
+            set;
         }
 
         /// <summary>
